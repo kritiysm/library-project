@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(225, 239, 251);
+}
+
+.heading {
+    display: flex;
+    justify-content: space-around;
+    border: solid 1px black;
+    box-shadow: 10px 10px 10px;
+    background-color: white;
+}
+
+.addbook {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    padding-bottom: 100px;
+
+
+}
+ 
+.footer {
+    display: flex;
+    min-height: 520px;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.form-cantaner {
+    border: solid 2px black;
+    display: none;
+    /* position: absolute;    */
+    width: 300px;
+    height: 290px;
+    text-align: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.checkbox {
+    display: flex;
+}
+
+.submite {
+    justify-content: center;
+}
+
+.addbtn {
+    font-size: 1.5em;
+}
+
+.blank-div {
+    display: flex;
+     /* height: 100%;  */
+    /* width: 100%;  */
+    box-shadow: 6px 6px 6px;
+    background-color: rgb(168, 101, 230);
+    display: none;  
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+.submite {
+    background-color: rgb(124, 242, 124);
+    padding: 7px;
+    padding-left: 15px;
+}
+
+.submitebtn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.loginbtn {
+    width: 40px;
+    height: 30px;
+    padding-left: 6px;
+}
+#cards{
+    width: 15%;
+    height: 300px;
+    margin: 10px;
+}
